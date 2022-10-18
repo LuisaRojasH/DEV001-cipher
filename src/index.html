@@ -2,12 +2,41 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>TOP SECRET</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>TOP SECRET</h1>
+
+    <div class="izquierda">
+      <form>
+        <h3>Escribe tu mensaje aqui:</h3>
+        <textarea name="mensaje" id="mensaje" class="box" value=" " rows="7" cols="37" 
+        placeholder="ESCRIBE TU MENSAJE" onkeyup="this.value = this.value.toUpperCase();" required></textarea>
+        <h3>Elige un numero clave:</h3>
+        <input type="number" min="1" id="numcod" class="numero" required>
+        <input type="button" class="boton" id="code" value="CIFRAR">
+          
+        <h3>Este es tu mensaje secreto:</h3>
+        <p class="box2" id="codigo"></p>
+        </form>  
+    </div>
+      
+    <div class="derecha">
+      <form>
+        <h3>Descifra tu mensaje secreto aqui:</h3>
+      <textarea name="mensaje" id="mensaje2" class="box" value=" " rows="7" cols="37" 
+      placeholder="DESCIFRA TU MENSAJE" onkeyup="this.value = this.value.toUpperCase();" required ></textarea>
+      <h3>Elige un numero clave:</h3>
+        <input type="number" min="1" id="numdecod" class="numero" required>
+        <input type="button" class="boton" id="decode" value="DESCIFRAR">
+      <h3>Este es el mensaje de tu amigo:</h3>
+        <p class="box2" id="codigo2"></p>
+      </form> 
+    </div>   
+      
     </div>
     <script src="index.js" type="module"></script>
   </body>
