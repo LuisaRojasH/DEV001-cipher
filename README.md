@@ -27,7 +27,7 @@
 
  prototipo en figma
  
-![Image text]https://github.com/LuisaRojasH/DEV001-cipher/blob/main/cipher.jpg
+![Image]https://github.com/LuisaRojasH/DEV001-cipher/blob/main/cipher.jpg
 
 
 
