@@ -26,8 +26,7 @@
  de escribir.
 
  prototipo en figma
- 
-![Image]https://github.com/LuisaRojasH/DEV001-cipher/blob/main/cipher.jpg
+ https://github.com/LuisaRojasH/DEV001-cipher/blob/main/cipher.jpg
 
 
 
