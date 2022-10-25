@@ -1,16 +1,16 @@
 {
   "name": "cipher",
   "version": "1.0.0",
-  "main": "src/index.html",
+  "main": "docs/index.html",
   "license": "MIT",
   "scripts": {
-    "htmlhint": "htmlhint src/*.html test/*.html",
-    "eslint": "eslint --ext .js src/ test/",
+    "htmlhint": "htmlhint docs/*.html test/*.html",
+    "eslint": "eslint --ext .js docs/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
-    "start": "serve ./src",
-    "deploy": "gh-pages -d src"
+    "start": "serve ./docs",
+    "deploy": "gh-pages -d docs"
   },
   "dependencies": {
     "@babel/core": "^7.6.2",
